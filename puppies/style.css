@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body{
+	font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  background-color: #F09A9A;
+}
+h1{
+  text-align: center;
+}
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+/* Navigation Bar */
+nav{
+  background-color: #49CBDB;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding-top: 13px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: green;
+}
+nav a:hover{
+  color: yellow;
+}
+nav a:active{
+  color: orange;
+}
+
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.home-hero{
+  background-image: url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #042837;
+  padding: 10px 10px 10px 30px;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+.puppy-name{
+  text-align: center;
+}
+
+
+footer{
+  background-color: #49CBDB;
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px;
+}
+.fa{
+  color: green;
+  font-size: 5em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 2em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
